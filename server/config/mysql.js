@@ -17,10 +17,10 @@ function queryFormat(sql, values, timeZone) {
 
 const pool = mysql.createPool({
 	host: 'localhost',
-	port: '8889', //3306,
+	port: '3306',
 	user: 'root',
 	password: password,
-	database: 'ronin_dev_db',
+	database: 'teamsync',
 	queryFormat: queryFormat,
 	Promise: Promise
 });

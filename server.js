@@ -3,7 +3,7 @@ const   bp              = require('body-parser'),
         helmet          = require('helmet'),
         path            = require('path'),
         app             = express(),
-        port            = process.env.PORT || 4998;
+        port            = process.env.PORT || 5000;
 
 const server = app.listen(port, function () {
 	console.log(`server running on port ${port}`);
